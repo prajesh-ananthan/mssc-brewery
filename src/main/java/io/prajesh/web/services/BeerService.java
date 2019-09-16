@@ -1,4 +1,4 @@
-package io.prajesh.web.service.BeerService;
+package io.prajesh.web.services;
 
 import io.prajesh.web.model.BeerDto;
 import org.springframework.stereotype.Service;
@@ -11,5 +11,5 @@ import java.util.UUID;
  */
 
 public interface BeerService {
-  public BeerDto getBeerById(UUID beerId);
+  BeerDto getBeerById(UUID beerId);
 }

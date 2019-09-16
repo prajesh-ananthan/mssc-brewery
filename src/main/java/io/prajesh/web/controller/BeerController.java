@@ -1,7 +1,7 @@
 package io.prajesh.web.controller;
 
 import io.prajesh.web.model.BeerDto;
-import io.prajesh.web.service.BeerService.BeerService;
+import io.prajesh.web.services.BeerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,9 +20,9 @@ import java.util.UUID;
 @RestController
 public class BeerController {
 
-  private BeerService beerService;
+  private final BeerService beerService;
 
-  public void setBeerService(BeerService beerService) {
+  public BeerController(BeerService beerService) {
     this.beerService = beerService;
   }
 

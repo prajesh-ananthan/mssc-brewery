@@ -1,4 +1,4 @@
-package io.prajesh.web.service.BeerService;
+package io.prajesh.web.services;
 
 import io.prajesh.web.model.BeerDto;
 
