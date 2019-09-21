@@ -1,13 +1,11 @@
 package io.prajesh.web.services;
 
 import io.prajesh.web.model.CustomerDto;
+import java.util.UUID;
 import org.springframework.stereotype.Service;
 
-import java.util.UUID;
-
 /**
- * @author Prajesh Ananthan
- * Created on 16/9/2019.
+ * @author Prajesh Ananthan Created on 16/9/2019.
  */
 
 @Service

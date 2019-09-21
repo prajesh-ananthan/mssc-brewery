@@ -1,15 +1,13 @@
 package io.prajesh.web.model;
 
+import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.UUID;
-
 /**
- * @author Prajesh Ananthan
- * Created on 16/9/2019.
+ * @author Prajesh Ananthan Created on 16/9/2019.
  */
 
 @NoArgsConstructor
