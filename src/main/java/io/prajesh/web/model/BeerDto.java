@@ -1,6 +1,5 @@
 package io.prajesh.web.model;
 
-import io.prajesh.web.enums.BeerStyleEnum;
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;
@@ -23,7 +22,8 @@ public class BeerDto {
   private Integer version;
   private OffsetDateTime createdDate;
   private OffsetDateTime lastModifiedDate;
-  private BeerStyleEnum beerStyle;
+  private String beerName;
+  private String beerStyle;
   private Long upc;
   private BigDecimal price;
   private Integer quantityOnHand;
