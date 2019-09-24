@@ -1,10 +1,11 @@
 package io.prajesh.web.model;
 
-import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.UUID;
 
 /**
  * @author Prajesh Ananthan Created on 16/9/2019.
@@ -16,6 +17,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class CustomerDto {
 
-  private UUID id;
-  private String name;
+    private UUID id;
+    private String name;
 }

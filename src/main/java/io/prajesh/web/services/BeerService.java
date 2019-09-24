@@ -1,6 +1,7 @@
 package io.prajesh.web.services;
 
 import io.prajesh.web.model.BeerDto;
+
 import java.util.UUID;
 
 /**
@@ -9,8 +10,10 @@ import java.util.UUID;
 
 public interface BeerService {
 
-  BeerDto getBeerById(UUID beerId);
-  BeerDto saveNewBeer(BeerDto beerDto);
-  BeerDto updateBeer(UUID uuid, BeerDto beerDto);
+    BeerDto getBeerById(UUID beerId);
+
+    BeerDto saveNewBeer(BeerDto beerDto);
+
+    BeerDto updateBeer(UUID uuid, BeerDto beerDto);
 
 }

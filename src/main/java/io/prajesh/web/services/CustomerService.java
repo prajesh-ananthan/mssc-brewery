@@ -1,6 +1,7 @@
 package io.prajesh.web.services;
 
 import io.prajesh.web.model.CustomerDto;
+
 import java.util.UUID;
 
 /**
@@ -9,5 +10,5 @@ import java.util.UUID;
 
 public interface CustomerService {
 
-  CustomerDto getCustomerById(UUID customerId);
+    CustomerDto getCustomerById(UUID customerId);
 }
