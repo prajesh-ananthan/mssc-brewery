@@ -30,4 +30,9 @@ public class BeerServiceImpl implements BeerService {
         return BeerDto.builder()
                 .id(uuid).build();
     }
+
+  @Override
+  public void deleteBeerById(UUID uuid) {
+
+  }
 }
